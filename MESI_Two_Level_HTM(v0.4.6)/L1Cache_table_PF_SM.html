@@ -41,12 +41,6 @@
     }">
     L1 Replacement
     </A></TH>
-<TH bgcolor=white><A href="L1Cache_Event_PF_L1_Replacement.html" target="Status" onmouseover="
-    if (parent.frames[1].location != parent.location + 'L1Cache_Event_PF_L1_Replacement.html') {
-        parent.frames[1].location='L1Cache_Event_PF_L1_Replacement.html'
-    }">
-    PF L1 Replacement
-    </A></TH>
 <TH bgcolor=white><A href="L1Cache_Event_Fwd_GETX.html" target="Status" onmouseover="
     if (parent.frames[1].location != parent.location + 'L1Cache_Event_Fwd_GETX.html') {
         parent.frames[1].location='L1Cache_Event_Fwd_GETX.html'
@@ -178,6 +172,12 @@
         parent.frames[1].location='L1Cache_Event_PF_Store.html'
     }">
     PF Store
+    </A></TH>
+<TH bgcolor=white><A href="L1Cache_Event_PF_L1_Replacement.html" target="Status" onmouseover="
+    if (parent.frames[1].location != parent.location + 'L1Cache_Event_PF_L1_Replacement.html') {
+        parent.frames[1].location='L1Cache_Event_PF_L1_Replacement.html'
+    }">
+    PF L1 Replacement
     </A></TH>
 </TR>
 <TR>
@@ -346,14 +346,6 @@
           parent.frames[1].location='L1Cache_action_l_popRequestQueue.html'
       }">
       l
-      </A>
-</TD>
-<TD bgcolor=white>
-  <A href="L1Cache_action_ff_deallocateL1CacheBlock.html" target="Status" onmouseover="
-      if (parent.frames[1].location != parent.location + 'L1Cache_action_ff_deallocateL1CacheBlock.html') {
-          parent.frames[1].location='L1Cache_action_ff_deallocateL1CacheBlock.html'
-      }">
-      <B><FONT size=+1>f</FONT></B>
       </A>
 </TD>
 <TD bgcolor=white>
@@ -644,6 +636,14 @@
     }">
     PF IM
     </A>
+</TD>
+<TD bgcolor=white>
+  <A href="L1Cache_action_ff_deallocateL1CacheBlock.html" target="Status" onmouseover="
+      if (parent.frames[1].location != parent.location + 'L1Cache_action_ff_deallocateL1CacheBlock.html') {
+          parent.frames[1].location='L1Cache_action_ff_deallocateL1CacheBlock.html'
+      }">
+      <B><FONT size=+1>f</FONT></B>
+      </A>
 </TD>
   <TH bgcolor=white><A href="L1Cache_table_NP.html" target="Table" onmouseover="
     if (parent.frames[1].location != parent.location + 'L1Cache_State_NP.html') {
@@ -828,14 +828,6 @@
       <B><FONT size=+1>f</FONT></B>
       </A>
 </TD>
-<TD bgcolor=white>
-  <A href="L1Cache_action_ff_deallocateL1CacheBlock.html" target="Status" onmouseover="
-      if (parent.frames[1].location != parent.location + 'L1Cache_action_ff_deallocateL1CacheBlock.html') {
-          parent.frames[1].location='L1Cache_action_ff_deallocateL1CacheBlock.html'
-      }">
-      <B><FONT size=+1>f</FONT></B>
-      </A>
-</TD>
 <TD bgcolor=lightgrey>&nbsp;</TD>
 <TD bgcolor=lightgrey>&nbsp;</TD>
 <TD bgcolor=lightgrey>&nbsp;</TD>
@@ -1116,6 +1108,14 @@
     }">
     PF IM
     </A>
+</TD>
+<TD bgcolor=white>
+  <A href="L1Cache_action_ff_deallocateL1CacheBlock.html" target="Status" onmouseover="
+      if (parent.frames[1].location != parent.location + 'L1Cache_action_ff_deallocateL1CacheBlock.html') {
+          parent.frames[1].location='L1Cache_action_ff_deallocateL1CacheBlock.html'
+      }">
+      <B><FONT size=+1>f</FONT></B>
+      </A>
 </TD>
   <TH bgcolor=white><A href="L1Cache_table_I.html" target="Table" onmouseover="
     if (parent.frames[1].location != parent.location + 'L1Cache_State_I.html') {
@@ -1288,33 +1288,6 @@
     I
     </A>
 </TD>
-<TD bgcolor=white>
-  <A href="L1Cache_action_hfes_HtmFailEvictSelf.html" target="Status" onmouseover="
-      if (parent.frames[1].location != parent.location + 'L1Cache_action_hfes_HtmFailEvictSelf.html') {
-          parent.frames[1].location='L1Cache_action_hfes_HtmFailEvictSelf.html'
-      }">
-      <B><FONT size=+1>h</FONT></B>fes
-      </A>
-  <A href="L1Cache_action_forward_eviction_to_cpu.html" target="Status" onmouseover="
-      if (parent.frames[1].location != parent.location + 'L1Cache_action_forward_eviction_to_cpu.html') {
-          parent.frames[1].location='L1Cache_action_forward_eviction_to_cpu.html'
-      }">
-      <B><FONT size=+1>c</FONT></B>c
-      </A>
-  <A href="L1Cache_action_ff_deallocateL1CacheBlock.html" target="Status" onmouseover="
-      if (parent.frames[1].location != parent.location + 'L1Cache_action_ff_deallocateL1CacheBlock.html') {
-          parent.frames[1].location='L1Cache_action_ff_deallocateL1CacheBlock.html'
-      }">
-      <B><FONT size=+1>f</FONT></B>
-      </A>
-/
-<A href="L1Cache_table_I.html" target="Table" onmouseover="
-    if (parent.frames[1].location != parent.location + 'L1Cache_State_I.html') {
-        parent.frames[1].location='L1Cache_State_I.html'
-    }">
-    I
-    </A>
-</TD>
 <TD bgcolor=lightgrey>&nbsp;</TD>
 <TD bgcolor=lightgrey>&nbsp;</TD>
 <TD bgcolor=lightgrey>&nbsp;</TD>
@@ -1395,6 +1368,33 @@
       }">
       <B><FONT size=+1>p</FONT></B>q
       </A>
+</TD>
+<TD bgcolor=white>
+  <A href="L1Cache_action_hfes_HtmFailEvictSelf.html" target="Status" onmouseover="
+      if (parent.frames[1].location != parent.location + 'L1Cache_action_hfes_HtmFailEvictSelf.html') {
+          parent.frames[1].location='L1Cache_action_hfes_HtmFailEvictSelf.html'
+      }">
+      <B><FONT size=+1>h</FONT></B>fes
+      </A>
+  <A href="L1Cache_action_forward_eviction_to_cpu.html" target="Status" onmouseover="
+      if (parent.frames[1].location != parent.location + 'L1Cache_action_forward_eviction_to_cpu.html') {
+          parent.frames[1].location='L1Cache_action_forward_eviction_to_cpu.html'
+      }">
+      <B><FONT size=+1>c</FONT></B>c
+      </A>
+  <A href="L1Cache_action_ff_deallocateL1CacheBlock.html" target="Status" onmouseover="
+      if (parent.frames[1].location != parent.location + 'L1Cache_action_ff_deallocateL1CacheBlock.html') {
+          parent.frames[1].location='L1Cache_action_ff_deallocateL1CacheBlock.html'
+      }">
+      <B><FONT size=+1>f</FONT></B>
+      </A>
+/
+<A href="L1Cache_table_I.html" target="Table" onmouseover="
+    if (parent.frames[1].location != parent.location + 'L1Cache_State_I.html') {
+        parent.frames[1].location='L1Cache_State_I.html'
+    }">
+    I
+    </A>
 </TD>
   <TH bgcolor=white><A href="L1Cache_table_S.html" target="Table" onmouseover="
     if (parent.frames[1].location != parent.location + 'L1Cache_State_S.html') {
@@ -1580,45 +1580,6 @@
     </A>
 </TD>
 <TD bgcolor=white>
-  <A href="L1Cache_action_i_allocateTBE.html" target="Status" onmouseover="
-      if (parent.frames[1].location != parent.location + 'L1Cache_action_i_allocateTBE.html') {
-          parent.frames[1].location='L1Cache_action_i_allocateTBE.html'
-      }">
-      i
-      </A>
-  <A href="L1Cache_action_hfes_HtmFailEvictSelf.html" target="Status" onmouseover="
-      if (parent.frames[1].location != parent.location + 'L1Cache_action_hfes_HtmFailEvictSelf.html') {
-          parent.frames[1].location='L1Cache_action_hfes_HtmFailEvictSelf.html'
-      }">
-      <B><FONT size=+1>h</FONT></B>fes
-      </A>
-  <A href="L1Cache_action_forward_eviction_to_cpu.html" target="Status" onmouseover="
-      if (parent.frames[1].location != parent.location + 'L1Cache_action_forward_eviction_to_cpu.html') {
-          parent.frames[1].location='L1Cache_action_forward_eviction_to_cpu.html'
-      }">
-      <B><FONT size=+1>c</FONT></B>c
-      </A>
-  <A href="L1Cache_action_g_issuePUTX.html" target="Status" onmouseover="
-      if (parent.frames[1].location != parent.location + 'L1Cache_action_g_issuePUTX.html') {
-          parent.frames[1].location='L1Cache_action_g_issuePUTX.html'
-      }">
-      g
-      </A>
-  <A href="L1Cache_action_ff_deallocateL1CacheBlock.html" target="Status" onmouseover="
-      if (parent.frames[1].location != parent.location + 'L1Cache_action_ff_deallocateL1CacheBlock.html') {
-          parent.frames[1].location='L1Cache_action_ff_deallocateL1CacheBlock.html'
-      }">
-      <B><FONT size=+1>f</FONT></B>
-      </A>
-/
-<A href="L1Cache_table_M_I.html" target="Table" onmouseover="
-    if (parent.frames[1].location != parent.location + 'L1Cache_State_M_I.html') {
-        parent.frames[1].location='L1Cache_State_M_I.html'
-    }">
-    M I
-    </A>
-</TD>
-<TD bgcolor=white>
   <A href="L1Cache_action_hfmc_HtmFailMemoryConflict.html" target="Status" onmouseover="
       if (parent.frames[1].location != parent.location + 'L1Cache_action_hfmc_HtmFailMemoryConflict.html') {
           parent.frames[1].location='L1Cache_action_hfmc_HtmFailMemoryConflict.html'
@@ -1794,6 +1755,45 @@
       }">
       <B><FONT size=+1>p</FONT></B>q
       </A>
+</TD>
+<TD bgcolor=white>
+  <A href="L1Cache_action_i_allocateTBE.html" target="Status" onmouseover="
+      if (parent.frames[1].location != parent.location + 'L1Cache_action_i_allocateTBE.html') {
+          parent.frames[1].location='L1Cache_action_i_allocateTBE.html'
+      }">
+      i
+      </A>
+  <A href="L1Cache_action_hfes_HtmFailEvictSelf.html" target="Status" onmouseover="
+      if (parent.frames[1].location != parent.location + 'L1Cache_action_hfes_HtmFailEvictSelf.html') {
+          parent.frames[1].location='L1Cache_action_hfes_HtmFailEvictSelf.html'
+      }">
+      <B><FONT size=+1>h</FONT></B>fes
+      </A>
+  <A href="L1Cache_action_forward_eviction_to_cpu.html" target="Status" onmouseover="
+      if (parent.frames[1].location != parent.location + 'L1Cache_action_forward_eviction_to_cpu.html') {
+          parent.frames[1].location='L1Cache_action_forward_eviction_to_cpu.html'
+      }">
+      <B><FONT size=+1>c</FONT></B>c
+      </A>
+  <A href="L1Cache_action_g_issuePUTX.html" target="Status" onmouseover="
+      if (parent.frames[1].location != parent.location + 'L1Cache_action_g_issuePUTX.html') {
+          parent.frames[1].location='L1Cache_action_g_issuePUTX.html'
+      }">
+      g
+      </A>
+  <A href="L1Cache_action_ff_deallocateL1CacheBlock.html" target="Status" onmouseover="
+      if (parent.frames[1].location != parent.location + 'L1Cache_action_ff_deallocateL1CacheBlock.html') {
+          parent.frames[1].location='L1Cache_action_ff_deallocateL1CacheBlock.html'
+      }">
+      <B><FONT size=+1>f</FONT></B>
+      </A>
+/
+<A href="L1Cache_table_M_I.html" target="Table" onmouseover="
+    if (parent.frames[1].location != parent.location + 'L1Cache_State_M_I.html') {
+        parent.frames[1].location='L1Cache_State_M_I.html'
+    }">
+    M I
+    </A>
 </TD>
   <TH bgcolor=white><A href="L1Cache_table_E.html" target="Table" onmouseover="
     if (parent.frames[1].location != parent.location + 'L1Cache_State_E.html') {
@@ -1972,45 +1972,6 @@
     </A>
 </TD>
 <TD bgcolor=white>
-  <A href="L1Cache_action_i_allocateTBE.html" target="Status" onmouseover="
-      if (parent.frames[1].location != parent.location + 'L1Cache_action_i_allocateTBE.html') {
-          parent.frames[1].location='L1Cache_action_i_allocateTBE.html'
-      }">
-      i
-      </A>
-  <A href="L1Cache_action_hfes_HtmFailEvictSelf.html" target="Status" onmouseover="
-      if (parent.frames[1].location != parent.location + 'L1Cache_action_hfes_HtmFailEvictSelf.html') {
-          parent.frames[1].location='L1Cache_action_hfes_HtmFailEvictSelf.html'
-      }">
-      <B><FONT size=+1>h</FONT></B>fes
-      </A>
-  <A href="L1Cache_action_forward_eviction_to_cpu.html" target="Status" onmouseover="
-      if (parent.frames[1].location != parent.location + 'L1Cache_action_forward_eviction_to_cpu.html') {
-          parent.frames[1].location='L1Cache_action_forward_eviction_to_cpu.html'
-      }">
-      <B><FONT size=+1>c</FONT></B>c
-      </A>
-  <A href="L1Cache_action_g_issuePUTX.html" target="Status" onmouseover="
-      if (parent.frames[1].location != parent.location + 'L1Cache_action_g_issuePUTX.html') {
-          parent.frames[1].location='L1Cache_action_g_issuePUTX.html'
-      }">
-      g
-      </A>
-  <A href="L1Cache_action_ff_deallocateL1CacheBlock.html" target="Status" onmouseover="
-      if (parent.frames[1].location != parent.location + 'L1Cache_action_ff_deallocateL1CacheBlock.html') {
-          parent.frames[1].location='L1Cache_action_ff_deallocateL1CacheBlock.html'
-      }">
-      <B><FONT size=+1>f</FONT></B>
-      </A>
-/
-<A href="L1Cache_table_M_I.html" target="Table" onmouseover="
-    if (parent.frames[1].location != parent.location + 'L1Cache_State_M_I.html') {
-        parent.frames[1].location='L1Cache_State_M_I.html'
-    }">
-    M I
-    </A>
-</TD>
-<TD bgcolor=white>
   <A href="L1Cache_action_hfmc_HtmFailMemoryConflict.html" target="Status" onmouseover="
       if (parent.frames[1].location != parent.location + 'L1Cache_action_hfmc_HtmFailMemoryConflict.html') {
           parent.frames[1].location='L1Cache_action_hfmc_HtmFailMemoryConflict.html'
@@ -2187,6 +2148,45 @@
       <B><FONT size=+1>p</FONT></B>q
       </A>
 </TD>
+<TD bgcolor=white>
+  <A href="L1Cache_action_i_allocateTBE.html" target="Status" onmouseover="
+      if (parent.frames[1].location != parent.location + 'L1Cache_action_i_allocateTBE.html') {
+          parent.frames[1].location='L1Cache_action_i_allocateTBE.html'
+      }">
+      i
+      </A>
+  <A href="L1Cache_action_hfes_HtmFailEvictSelf.html" target="Status" onmouseover="
+      if (parent.frames[1].location != parent.location + 'L1Cache_action_hfes_HtmFailEvictSelf.html') {
+          parent.frames[1].location='L1Cache_action_hfes_HtmFailEvictSelf.html'
+      }">
+      <B><FONT size=+1>h</FONT></B>fes
+      </A>
+  <A href="L1Cache_action_forward_eviction_to_cpu.html" target="Status" onmouseover="
+      if (parent.frames[1].location != parent.location + 'L1Cache_action_forward_eviction_to_cpu.html') {
+          parent.frames[1].location='L1Cache_action_forward_eviction_to_cpu.html'
+      }">
+      <B><FONT size=+1>c</FONT></B>c
+      </A>
+  <A href="L1Cache_action_g_issuePUTX.html" target="Status" onmouseover="
+      if (parent.frames[1].location != parent.location + 'L1Cache_action_g_issuePUTX.html') {
+          parent.frames[1].location='L1Cache_action_g_issuePUTX.html'
+      }">
+      g
+      </A>
+  <A href="L1Cache_action_ff_deallocateL1CacheBlock.html" target="Status" onmouseover="
+      if (parent.frames[1].location != parent.location + 'L1Cache_action_ff_deallocateL1CacheBlock.html') {
+          parent.frames[1].location='L1Cache_action_ff_deallocateL1CacheBlock.html'
+      }">
+      <B><FONT size=+1>f</FONT></B>
+      </A>
+/
+<A href="L1Cache_table_M_I.html" target="Table" onmouseover="
+    if (parent.frames[1].location != parent.location + 'L1Cache_State_M_I.html') {
+        parent.frames[1].location='L1Cache_State_M_I.html'
+    }">
+    M I
+    </A>
+</TD>
   <TH bgcolor=white><A href="L1Cache_table_M.html" target="Table" onmouseover="
     if (parent.frames[1].location != parent.location + 'L1Cache_State_M.html') {
         parent.frames[1].location='L1Cache_State_M.html'
@@ -2258,14 +2258,6 @@
           parent.frames[1].location='L1Cache_action_z_stallAndWaitMandatoryQueue.html'
       }">
       <B><FONT size=+1>z</FONT></B>
-      </A>
-</TD>
-<TD bgcolor=white>
-  <A href="L1Cache_action_z_stallAndWaitOptionalQueue.html" target="Status" onmouseover="
-      if (parent.frames[1].location != parent.location + 'L1Cache_action_z_stallAndWaitOptionalQueue.html') {
-          parent.frames[1].location='L1Cache_action_z_stallAndWaitOptionalQueue.html'
-      }">
-      <B><FONT size=+1>p</FONT></B>z
       </A>
 </TD>
 <TD bgcolor=lightgrey>&nbsp;</TD>
@@ -2513,6 +2505,14 @@
       <B><FONT size=+1>p</FONT></B>q
       </A>
 </TD>
+<TD bgcolor=white>
+  <A href="L1Cache_action_z_stallAndWaitOptionalQueue.html" target="Status" onmouseover="
+      if (parent.frames[1].location != parent.location + 'L1Cache_action_z_stallAndWaitOptionalQueue.html') {
+          parent.frames[1].location='L1Cache_action_z_stallAndWaitOptionalQueue.html'
+      }">
+      <B><FONT size=+1>p</FONT></B>z
+      </A>
+</TD>
   <TH bgcolor=white><A href="L1Cache_table_IS.html" target="Table" onmouseover="
     if (parent.frames[1].location != parent.location + 'L1Cache_State_IS.html') {
         parent.frames[1].location='L1Cache_State_IS.html'
@@ -2558,14 +2558,6 @@
           parent.frames[1].location='L1Cache_action_z_stallAndWaitMandatoryQueue.html'
       }">
       <B><FONT size=+1>z</FONT></B>
-      </A>
-</TD>
-<TD bgcolor=white>
-  <A href="L1Cache_action_z_stallAndWaitOptionalQueue.html" target="Status" onmouseover="
-      if (parent.frames[1].location != parent.location + 'L1Cache_action_z_stallAndWaitOptionalQueue.html') {
-          parent.frames[1].location='L1Cache_action_z_stallAndWaitOptionalQueue.html'
-      }">
-      <B><FONT size=+1>p</FONT></B>z
       </A>
 </TD>
 <TD bgcolor=lightgrey>&nbsp;</TD>
@@ -2826,6 +2818,14 @@
       <B><FONT size=+1>p</FONT></B>q
       </A>
 </TD>
+<TD bgcolor=white>
+  <A href="L1Cache_action_z_stallAndWaitOptionalQueue.html" target="Status" onmouseover="
+      if (parent.frames[1].location != parent.location + 'L1Cache_action_z_stallAndWaitOptionalQueue.html') {
+          parent.frames[1].location='L1Cache_action_z_stallAndWaitOptionalQueue.html'
+      }">
+      <B><FONT size=+1>p</FONT></B>z
+      </A>
+</TD>
   <TH bgcolor=white><A href="L1Cache_table_IM.html" target="Table" onmouseover="
     if (parent.frames[1].location != parent.location + 'L1Cache_State_IM.html') {
         parent.frames[1].location='L1Cache_State_IM.html'
@@ -2903,14 +2903,6 @@
           parent.frames[1].location='L1Cache_action_z_stallAndWaitMandatoryQueue.html'
       }">
       <B><FONT size=+1>z</FONT></B>
-      </A>
-</TD>
-<TD bgcolor=white>
-  <A href="L1Cache_action_z_stallAndWaitOptionalQueue.html" target="Status" onmouseover="
-      if (parent.frames[1].location != parent.location + 'L1Cache_action_z_stallAndWaitOptionalQueue.html') {
-          parent.frames[1].location='L1Cache_action_z_stallAndWaitOptionalQueue.html'
-      }">
-      <B><FONT size=+1>p</FONT></B>z
       </A>
 </TD>
 <TD bgcolor=lightgrey>&nbsp;</TD>
@@ -3045,6 +3037,14 @@
       <B><FONT size=+1>p</FONT></B>q
       </A>
 </TD>
+<TD bgcolor=white>
+  <A href="L1Cache_action_z_stallAndWaitOptionalQueue.html" target="Status" onmouseover="
+      if (parent.frames[1].location != parent.location + 'L1Cache_action_z_stallAndWaitOptionalQueue.html') {
+          parent.frames[1].location='L1Cache_action_z_stallAndWaitOptionalQueue.html'
+      }">
+      <B><FONT size=+1>p</FONT></B>z
+      </A>
+</TD>
   <TH bgcolor=white><A href="L1Cache_table_SM.html" target="Table" onmouseover="
     if (parent.frames[1].location != parent.location + 'L1Cache_State_SM.html') {
         parent.frames[1].location='L1Cache_State_SM.html'
@@ -3109,14 +3109,6 @@
           parent.frames[1].location='L1Cache_action_z_stallAndWaitMandatoryQueue.html'
       }">
       <B><FONT size=+1>z</FONT></B>
-      </A>
-</TD>
-<TD bgcolor=white>
-  <A href="L1Cache_action_z_stallAndWaitOptionalQueue.html" target="Status" onmouseover="
-      if (parent.frames[1].location != parent.location + 'L1Cache_action_z_stallAndWaitOptionalQueue.html') {
-          parent.frames[1].location='L1Cache_action_z_stallAndWaitOptionalQueue.html'
-      }">
-      <B><FONT size=+1>p</FONT></B>z
       </A>
 </TD>
 <TD bgcolor=lightgrey>&nbsp;</TD>
@@ -3364,6 +3356,14 @@
       <B><FONT size=+1>p</FONT></B>q
       </A>
 </TD>
+<TD bgcolor=white>
+  <A href="L1Cache_action_z_stallAndWaitOptionalQueue.html" target="Status" onmouseover="
+      if (parent.frames[1].location != parent.location + 'L1Cache_action_z_stallAndWaitOptionalQueue.html') {
+          parent.frames[1].location='L1Cache_action_z_stallAndWaitOptionalQueue.html'
+      }">
+      <B><FONT size=+1>p</FONT></B>z
+      </A>
+</TD>
   <TH bgcolor=white><A href="L1Cache_table_IS_I.html" target="Table" onmouseover="
     if (parent.frames[1].location != parent.location + 'L1Cache_State_IS_I.html') {
         parent.frames[1].location='L1Cache_State_IS_I.html'
@@ -3438,14 +3438,6 @@
       </A>
 </TD>
 <TD bgcolor=white>
-  <A href="L1Cache_action_z_stallAndWaitOptionalQueue.html" target="Status" onmouseover="
-      if (parent.frames[1].location != parent.location + 'L1Cache_action_z_stallAndWaitOptionalQueue.html') {
-          parent.frames[1].location='L1Cache_action_z_stallAndWaitOptionalQueue.html'
-      }">
-      <B><FONT size=+1>p</FONT></B>z
-      </A>
-</TD>
-<TD bgcolor=white>
   <A href="L1Cache_action_hfmc_HtmFailMemoryConflict.html" target="Status" onmouseover="
       if (parent.frames[1].location != parent.location + 'L1Cache_action_hfmc_HtmFailMemoryConflict.html') {
           parent.frames[1].location='L1Cache_action_hfmc_HtmFailMemoryConflict.html'
@@ -3640,6 +3632,14 @@
           parent.frames[1].location='L1Cache_action_pq_popPrefetchQueue.html'
       }">
       <B><FONT size=+1>p</FONT></B>q
+      </A>
+</TD>
+<TD bgcolor=white>
+  <A href="L1Cache_action_z_stallAndWaitOptionalQueue.html" target="Status" onmouseover="
+      if (parent.frames[1].location != parent.location + 'L1Cache_action_z_stallAndWaitOptionalQueue.html') {
+          parent.frames[1].location='L1Cache_action_z_stallAndWaitOptionalQueue.html'
+      }">
+      <B><FONT size=+1>p</FONT></B>z
       </A>
 </TD>
   <TH bgcolor=white><A href="L1Cache_table_M_I.html" target="Table" onmouseover="
@@ -3702,14 +3702,6 @@
       <B><FONT size=+1>z</FONT></B>
       </A>
 </TD>
-<TD bgcolor=white>
-  <A href="L1Cache_action_z_stallAndWaitOptionalQueue.html" target="Status" onmouseover="
-      if (parent.frames[1].location != parent.location + 'L1Cache_action_z_stallAndWaitOptionalQueue.html') {
-          parent.frames[1].location='L1Cache_action_z_stallAndWaitOptionalQueue.html'
-      }">
-      <B><FONT size=+1>p</FONT></B>z
-      </A>
-</TD>
 <TD bgcolor=lightgrey>&nbsp;</TD>
 <TD bgcolor=lightgrey>&nbsp;</TD>
 <TD bgcolor=lightgrey>&nbsp;</TD>
@@ -3835,6 +3827,14 @@
           parent.frames[1].location='L1Cache_action_pq_popPrefetchQueue.html'
       }">
       <B><FONT size=+1>p</FONT></B>q
+      </A>
+</TD>
+<TD bgcolor=white>
+  <A href="L1Cache_action_z_stallAndWaitOptionalQueue.html" target="Status" onmouseover="
+      if (parent.frames[1].location != parent.location + 'L1Cache_action_z_stallAndWaitOptionalQueue.html') {
+          parent.frames[1].location='L1Cache_action_z_stallAndWaitOptionalQueue.html'
+      }">
+      <B><FONT size=+1>p</FONT></B>z
       </A>
 </TD>
   <TH bgcolor=white><A href="L1Cache_table_SINK_WB_ACK.html" target="Table" onmouseover="
@@ -3911,14 +3911,6 @@
       </A>
 </TD>
 <TD bgcolor=white>
-  <A href="L1Cache_action_z_stallAndWaitOptionalQueue.html" target="Status" onmouseover="
-      if (parent.frames[1].location != parent.location + 'L1Cache_action_z_stallAndWaitOptionalQueue.html') {
-          parent.frames[1].location='L1Cache_action_z_stallAndWaitOptionalQueue.html'
-      }">
-      <B><FONT size=+1>p</FONT></B>z
-      </A>
-</TD>
-<TD bgcolor=white>
   <A href="L1Cache_action_hfmc_HtmFailMemoryConflict.html" target="Status" onmouseover="
       if (parent.frames[1].location != parent.location + 'L1Cache_action_hfmc_HtmFailMemoryConflict.html') {
           parent.frames[1].location='L1Cache_action_hfmc_HtmFailMemoryConflict.html'
@@ -4095,6 +4087,14 @@
           parent.frames[1].location='L1Cache_action_pq_popPrefetchQueue.html'
       }">
       <B><FONT size=+1>p</FONT></B>q
+      </A>
+</TD>
+<TD bgcolor=white>
+  <A href="L1Cache_action_z_stallAndWaitOptionalQueue.html" target="Status" onmouseover="
+      if (parent.frames[1].location != parent.location + 'L1Cache_action_z_stallAndWaitOptionalQueue.html') {
+          parent.frames[1].location='L1Cache_action_z_stallAndWaitOptionalQueue.html'
+      }">
+      <B><FONT size=+1>p</FONT></B>z
       </A>
 </TD>
   <TH bgcolor=white><A href="L1Cache_table_MI_T.html" target="Table" onmouseover="
@@ -4208,14 +4208,6 @@
       <B><FONT size=+1>z</FONT></B>
       </A>
 </TD>
-<TD bgcolor=white>
-  <A href="L1Cache_action_z_stallAndWaitOptionalQueue.html" target="Status" onmouseover="
-      if (parent.frames[1].location != parent.location + 'L1Cache_action_z_stallAndWaitOptionalQueue.html') {
-          parent.frames[1].location='L1Cache_action_z_stallAndWaitOptionalQueue.html'
-      }">
-      <B><FONT size=+1>p</FONT></B>z
-      </A>
-</TD>
 <TD bgcolor=lightgrey>&nbsp;</TD>
 <TD bgcolor=lightgrey>&nbsp;</TD>
 <TD bgcolor=lightgrey>&nbsp;</TD>
@@ -4455,6 +4447,14 @@
       <B><FONT size=+1>p</FONT></B>q
       </A>
 </TD>
+<TD bgcolor=white>
+  <A href="L1Cache_action_z_stallAndWaitOptionalQueue.html" target="Status" onmouseover="
+      if (parent.frames[1].location != parent.location + 'L1Cache_action_z_stallAndWaitOptionalQueue.html') {
+          parent.frames[1].location='L1Cache_action_z_stallAndWaitOptionalQueue.html'
+      }">
+      <B><FONT size=+1>p</FONT></B>z
+      </A>
+</TD>
   <TH bgcolor=white><A href="L1Cache_table_PF_IS.html" target="Table" onmouseover="
     if (parent.frames[1].location != parent.location + 'L1Cache_State_PF_IS.html') {
         parent.frames[1].location='L1Cache_State_PF_IS.html'
@@ -4538,14 +4538,6 @@
           parent.frames[1].location='L1Cache_action_z_stallAndWaitMandatoryQueue.html'
       }">
       <B><FONT size=+1>z</FONT></B>
-      </A>
-</TD>
-<TD bgcolor=white>
-  <A href="L1Cache_action_z_stallAndWaitOptionalQueue.html" target="Status" onmouseover="
-      if (parent.frames[1].location != parent.location + 'L1Cache_action_z_stallAndWaitOptionalQueue.html') {
-          parent.frames[1].location='L1Cache_action_z_stallAndWaitOptionalQueue.html'
-      }">
-      <B><FONT size=+1>p</FONT></B>z
       </A>
 </TD>
 <TD bgcolor=lightgrey>&nbsp;</TD>
@@ -4762,6 +4754,14 @@
       <B><FONT size=+1>p</FONT></B>q
       </A>
 </TD>
+<TD bgcolor=white>
+  <A href="L1Cache_action_z_stallAndWaitOptionalQueue.html" target="Status" onmouseover="
+      if (parent.frames[1].location != parent.location + 'L1Cache_action_z_stallAndWaitOptionalQueue.html') {
+          parent.frames[1].location='L1Cache_action_z_stallAndWaitOptionalQueue.html'
+      }">
+      <B><FONT size=+1>p</FONT></B>z
+      </A>
+</TD>
   <TH bgcolor=white><A href="L1Cache_table_PF_IM.html" target="Table" onmouseover="
     if (parent.frames[1].location != parent.location + 'L1Cache_State_PF_IM.html') {
         parent.frames[1].location='L1Cache_State_PF_IM.html'
@@ -4852,14 +4852,6 @@
           parent.frames[1].location='L1Cache_action_z_stallAndWaitMandatoryQueue.html'
       }">
       <B><FONT size=+1>z</FONT></B>
-      </A>
-</TD>
-<TD bgcolor=aqua>
-  <A href="L1Cache_action_z_stallAndWaitOptionalQueue.html" target="Status" onmouseover="
-      if (parent.frames[1].location != parent.location + 'L1Cache_action_z_stallAndWaitOptionalQueue.html') {
-          parent.frames[1].location='L1Cache_action_z_stallAndWaitOptionalQueue.html'
-      }">
-      <B><FONT size=+1>p</FONT></B>z
       </A>
 </TD>
 <TD bgcolor=#C0C000>&nbsp;</TD>
@@ -4973,6 +4965,14 @@
 <TD bgcolor=#C0C000>&nbsp;</TD>
 <TD bgcolor=#C0C000>&nbsp;</TD>
 <TD bgcolor=#C0C000>&nbsp;</TD>
+<TD bgcolor=aqua>
+  <A href="L1Cache_action_z_stallAndWaitOptionalQueue.html" target="Status" onmouseover="
+      if (parent.frames[1].location != parent.location + 'L1Cache_action_z_stallAndWaitOptionalQueue.html') {
+          parent.frames[1].location='L1Cache_action_z_stallAndWaitOptionalQueue.html'
+      }">
+      <B><FONT size=+1>p</FONT></B>z
+      </A>
+</TD>
   <TH bgcolor=yellow><A href="L1Cache_table_PF_SM.html" target="Table" onmouseover="
     if (parent.frames[1].location != parent.location + 'L1Cache_State_PF_SM.html') {
         parent.frames[1].location='L1Cache_State_PF_SM.html'
@@ -5075,14 +5075,6 @@
           parent.frames[1].location='L1Cache_action_z_stallAndWaitMandatoryQueue.html'
       }">
       <B><FONT size=+1>z</FONT></B>
-      </A>
-</TD>
-<TD bgcolor=white>
-  <A href="L1Cache_action_z_stallAndWaitOptionalQueue.html" target="Status" onmouseover="
-      if (parent.frames[1].location != parent.location + 'L1Cache_action_z_stallAndWaitOptionalQueue.html') {
-          parent.frames[1].location='L1Cache_action_z_stallAndWaitOptionalQueue.html'
-      }">
-      <B><FONT size=+1>p</FONT></B>z
       </A>
 </TD>
 <TD bgcolor=lightgrey>&nbsp;</TD>
@@ -5288,6 +5280,14 @@
       <B><FONT size=+1>p</FONT></B>q
       </A>
 </TD>
+<TD bgcolor=white>
+  <A href="L1Cache_action_z_stallAndWaitOptionalQueue.html" target="Status" onmouseover="
+      if (parent.frames[1].location != parent.location + 'L1Cache_action_z_stallAndWaitOptionalQueue.html') {
+          parent.frames[1].location='L1Cache_action_z_stallAndWaitOptionalQueue.html'
+      }">
+      <B><FONT size=+1>p</FONT></B>z
+      </A>
+</TD>
   <TH bgcolor=white><A href="L1Cache_table_PF_IS_I.html" target="Table" onmouseover="
     if (parent.frames[1].location != parent.location + 'L1Cache_State_PF_IS_I.html') {
         parent.frames[1].location='L1Cache_State_PF_IS_I.html'
@@ -5327,12 +5327,6 @@
         parent.frames[1].location='L1Cache_Event_L1_Replacement.html'
     }">
     L1 Replacement
-    </A></TH>
-<TH bgcolor=white><A href="L1Cache_Event_PF_L1_Replacement.html" target="Status" onmouseover="
-    if (parent.frames[1].location != parent.location + 'L1Cache_Event_PF_L1_Replacement.html') {
-        parent.frames[1].location='L1Cache_Event_PF_L1_Replacement.html'
-    }">
-    PF L1 Replacement
     </A></TH>
 <TH bgcolor=white><A href="L1Cache_Event_Fwd_GETX.html" target="Status" onmouseover="
     if (parent.frames[1].location != parent.location + 'L1Cache_Event_Fwd_GETX.html') {
@@ -5465,6 +5459,12 @@
         parent.frames[1].location='L1Cache_Event_PF_Store.html'
     }">
     PF Store
+    </A></TH>
+<TH bgcolor=white><A href="L1Cache_Event_PF_L1_Replacement.html" target="Status" onmouseover="
+    if (parent.frames[1].location != parent.location + 'L1Cache_Event_PF_L1_Replacement.html') {
+        parent.frames[1].location='L1Cache_Event_PF_L1_Replacement.html'
+    }">
+    PF L1 Replacement
     </A></TH>
 </TR>
 </TABLE>
